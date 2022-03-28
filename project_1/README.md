@@ -10,8 +10,8 @@ The dimension tables contain data that allow us to enrich the business analysis 
 ## Python scripts and how to run it
 - `create_tables.py`: need for database initialization. This script recreates all db tables using SQL queries in sql_queries.py;
 - `sql_queries.py`: contains all about DDL and DML queries;
-- `etl.py`: contains code used for playing with data using Pandas before implementing the complete pipeline;
-- `etl.ipynb`: Jupyter notebook in which we have implemented the complete pipeline using all songs and log data loaded from the JSON files in the data folder;
+- `etl.ipynb`: Jupyter notebook that contains code used for playing with data using Pandas before implementing the complete pipeline;
+- `etl.py`: script with the complete pipeline using all songs and log data loaded from the JSON files in the data folder;
 - `test.ipynb`: Jupyter notebook in which we have code for testing the DB model correctness and the ETL pipeline.
 
 In order to execute the ETL pipeline:
