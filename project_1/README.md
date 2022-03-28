@@ -5,7 +5,7 @@ We used the Star Schema, a typical data warehouses schema in which we have a fac
 The fact table will contain the IDs of the entities that are part of the business analysis (`user`, `song`, `artist`, `session`, `time`).
 The dimension tables contain data that allow us to enrich the business analysis on our entities, with attributes related to users, songs and artists.
 
-<img width="802" alt="Song_ERD" src="https://user-images.githubusercontent.com/100279095/155351060-03d59720-eafe-49e0-82ff-f75fd390965f.png">
+![sparkify_db drawio](https://user-images.githubusercontent.com/7735363/160462609-2a5ce2f6-c52e-49a3-b25f-f3dad87efef1.png)
 
 ## Python scripts and how to run it
 - `create_tables.py`: need for database initialization. This script recreates all db tables using SQL queries in sql_queries.py;
