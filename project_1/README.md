@@ -16,7 +16,7 @@ The dimension tables contain data that allow us to enrich the business analysis 
 
 In order to execute the ETL pipeline:
 1. run create_tables.py
-2. run etl.ipynb
+2. run etl.py
 3. run test.ipynb (optional)
 
 
